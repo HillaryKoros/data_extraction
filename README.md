@@ -1,9 +1,14 @@
 
 # Spatial Data Extraction Projects
 
-- ## Extracting Data from the Master Health Facility Registry (KMHFR)
+🍃 Hello! Welcome to this data extraction repository, where we leverage programming and automation tools 🛠️🤖. This project focuses on using (geo)python libraries 🌎🗺️ to extract and visualize spatial data 🛰️📊📈. Our goal is to support decision-makers, humanitarian organizations, and emergency response efforts 💻🌟, among other global challenges.
 
-In this exercise, we will use the following Python libraries:
+
+---
+
+### Projects
+
+- **Extracting Data from the Master Health Facility Registry (KMHFR)** In this exercise, we will use the following Python libraries:
 
 - **Beautiful Soup**: For parsing HTML and XML documents.
 - **Requests**: For making HTTP requests to retrieve data from the web.
@@ -21,10 +26,11 @@ The data from KMHFR can be accessed through an API, with documentation available
 However, in this exercise, we will use **Beautiful Soup** to scrape the data from the KMHFR website.
 
 We'll be working with the following base URL:
-```python
-base_url = "https://kmhfr.health.go.ke/public/facilities?page={}"
+python
+base_url = [here](https://kmhfr.health.go.ke/public/facilities?page={}).
 
-- ## Retrieving data from OpenStreetMap
+
+- **Retrieving data from OpenStreetMap:** 
 
  OpenStreetMap (OSM) is probably the most well known and widely used spatial dataset/database in the world. Let's see how we can retrieve data from OSM using a library called [omsnx](https://osmnx.readthedocs.io/). With `osmnx` you can easily download and extract data from anywhere in the world based on the [Overpass API](https://dev.overpass-api.de/overpass-doc/en/preface/preface.html). You can use `osmnx` e.g. to retrieve OSM data around a given address and applying a  2 km buffer around this location. Hence, `osmnx` is a very flexible library in terms of specifying the area of interest. 
 
